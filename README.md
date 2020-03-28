@@ -13,6 +13,12 @@ byte b1 = 5;
 byte b2 = 3;
 byte b3 = b1 + b2;
 // Linha não compila pois b1 +  b2 devolve um int, e um int não cabe em um byte
+
+//Forma correta:
+byte b1 = 5;
+byte b2 = 3;
+int b3 = b1 + b2;
+
 ```
 
 ## Tamanho de tipos primitivos ##
@@ -70,4 +76,8 @@ www.examsexpert.com/oracle-certifications.html
 enthuware.com
 
 education.oracle.com/certification-practice-exams
+
+https://www.tutorialspoint.com/java/java_basic_operators.htm
+
+
 
